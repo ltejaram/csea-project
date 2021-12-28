@@ -1,0 +1,57 @@
+
+<style>
+    body
+    {
+        
+        background-image: url(background.jpg);
+    }
+    label
+    {
+        color: cyan; 
+    }
+    form
+    {
+       position: relative;
+       top: 100px;
+       left: 500px;
+       
+    }
+    .resize
+    {
+
+        width: 200px;
+        border: greenyellow;
+        border-width: 2px;
+        
+    }
+    .submit
+    {
+        position: absolute;
+        left: 60px;
+    }
+</style>
+
+<body>
+    
+    <form >
+        <label >Name:</label><br>
+        <input class="resize" type="text">
+        <br>
+        <label>Age:</label><br>
+        <input class="resize" type="number" min="18" max="20"><br>
+        <label  >Roll Number:</label><br>
+        <input class="resize" type="text"><br>
+        <label>Mobile Number:</label><br>
+        <input class="resize"type="number"><br>
+        <label >email:</label><br>
+        <input class="resize" type="email"> <br>
+        <label>Sex:</label><br>
+        <input  type="radio" name="Sex">
+        <label >Male</label>
+        <input type="radio" name="Sex">
+        <label >Female</label>
+        <input type="radio" name="Sex">
+        <label>Prefer not to say</label> <br>
+        <input class="submit" type="submit" >
+    </form>
+</body>
